@@ -1,8 +1,0 @@
-If a modded apk doesnt work and it kicks u from the game, do this
-
-
-Patch the game with lemonloader (theres another method posted in here showing how)
-
-use a vpn (another method too posted here)
-
-use the playfabpatcherv3 posted in dlls

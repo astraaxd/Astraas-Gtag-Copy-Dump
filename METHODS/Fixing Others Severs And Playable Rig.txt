@@ -1,0 +1,68 @@
+----------credit----------
+Made By Noob Dont Steal Or That Bad
+Discord: noob1233ii (notlucyシ)
+Link To Account Display: https://cdn.discordapp.com/attachments/1107683600482185237/1156620003177680946/image.png?ex=6515a1d1&is=65145051&hm=062e7df9d193f28e1717357d95b0b358ceca9e715921dd126439dd3a3ce40b2e&
+
+---fixing-rig-when-join---
+Go To gorilla player actual
+then on the gorilla player acual in the prefab make sure it has this stuf animator, vr rig, rigidbody, photon view, rig, rig builder, photon voice view
+on rig guilder make the rig layer the gorilla player actual (rig)
+on the photon voice view make were it sats speaker in uns the speakerhead collider (speaker)
+now go to the speakerheadcollider and add speaker to it
+first remove the missing script in the Left Arm IK and then
+on the LeftArm add Two Bone IK Constraint in root make that upper_arm.L in mid make that forearm.L in tip make that hand.L in target make it TargetWrist 
+after that we do the right hand
+first remove the missing script in the Right Arm IK and then
+on the RightArm add Two Bone IK Constraint in root make that upper_arm.R in mid make that forearm.R in tip make that hand.R in target make it TargetWrist
+after that we do the head
+first we remove the missing script in the VR Constraints and then
+on the head constraint add Multi-Parent Constraint then in the Constrained Object make it head in Source Objects add Head Constraint and in setting make it so all of the boxes are ticked and the maintrain offset is none
+
+--------fixing-tag--------
+go to the gorillatagmanager prefab and were it says missing script change it to the photon view
+ 
+--------fixing-hunt-------
+go to the gorillahuntmanager prefab and were it says missing script change it to the photon view 
+
+--------fixing-battle-------
+go to the gorillabattlemanager prefab and were it says missing script change it to the photon view 
+
+--make-it-able-to-be-apk--
+make the default icon gorillalogo
+go into other settings and make it color space linear and eable Auto Graphics API
+Disable Multithreaded Rendering and Enable Static Batching, Dynamic Batching, Compute Skinning
+Make The Texture compression format ETC
+Make The Normal Map Encoding XYZ
+Lightmap Encoding to Normal Quality
+Enable Lightmap Streaming
+Enable OpenGL: Profiler GPU Recorders
+Enable Override Default Package Names
+Make Minimum API Level Marshmellow
+Make Scripting Backend IL2CPP
+Make Api Compatibility Level .NET Standard 2.1
+Make C++ Compiler Configuration Release
+Enable Assembly Version Validation (editor only)
+Make Target Architectures ARM64
+Make the Target Devices All Devices
+Make Install Location Automatic
+Make Internet Access Auto
+Make Write Permission Internal
+Enable Chrome OS Input Emulaion
+Make Active Input Handling Input System Package (New)
+make the scripting define symbols:
+PHOTON_UNITY_NETWORKING
+PUN_2_0_OR_NEWER
+PUN_2_OR_NEWER
+PUN_2_19_OR_NEWER
+CROSS_PLATFORM_INPUT
+MOBILE_INPUT
+USE_INPUT_SYSTEM_POSE_CONTROL
+Enable Suppress Common Warning 
+Enable Allow Unsafe code
+Enable Use Deterministic Compilation
+Eanble Enable Roslyn Analyzers
+Enable Prebake Collision Meshes
+Make Managed Stripping Level Low
+Make Vertex Compression None
+for log type, error, assert, log exeption scriptonly
+Enable clamp BlendShapes (Deprecated)

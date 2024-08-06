@@ -1,0 +1,23 @@
+--DLL TO MODEL METHOD--
+
+
+Download
+AssetStudio
+
+Go Into A Dll In Any softwere like dnspy 
+
+find Resources in any mod (not mod menus)
+
+and when u find a file right click on it and save it
+
+go to asset studio and import wait
+
+-
+when its imported
+
+press on models/model
+
+on press on export all models
+-
+there u go
+when its in unity its super small just size it up
